@@ -1,3 +1,40 @@
-.App {
-  text-align: center;
+.Knight {
+  background-color: blue;
+}
+
+.Rank--even,
+.Rank--odd {
+  display: flex;
+}
+
+.Rank--even .Square:nth-child(1n) {
+  background-color: lightgoldenrodyellow;
+  color: olivedrab;
+}
+
+.Rank--even .Square:nth-child(2n) {
+  background-color: olivedrab;
+  color: white;
+}
+
+.Rank--odd .Square:nth-child(1n) {
+  background-color: olivedrab;
+  color: white;
+}
+
+.Rank--odd .Square:nth-child(2n) {
+  background-color: lightgoldenrodyellow;
+  color: olivedrab;
+}
+
+.Knight,
+.Square {
+  height: 80px;
+  width: 80px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
