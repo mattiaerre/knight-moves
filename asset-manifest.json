@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/knight-moves/static/css/main.06ac8a17.chunk.css",
+    "main.js": "/knight-moves/static/js/main.b5484690.chunk.js",
+    "main.js.map": "/knight-moves/static/js/main.b5484690.chunk.js.map",
+    "runtime-main.js": "/knight-moves/static/js/runtime-main.60651984.js",
+    "runtime-main.js.map": "/knight-moves/static/js/runtime-main.60651984.js.map",
+    "static/js/2.d1feba79.chunk.js": "/knight-moves/static/js/2.d1feba79.chunk.js",
+    "static/js/2.d1feba79.chunk.js.map": "/knight-moves/static/js/2.d1feba79.chunk.js.map",
+    "static/js/3.b248570c.chunk.js": "/knight-moves/static/js/3.b248570c.chunk.js",
+    "static/js/3.b248570c.chunk.js.map": "/knight-moves/static/js/3.b248570c.chunk.js.map",
+    "index.html": "/knight-moves/index.html",
+    "static/css/main.06ac8a17.chunk.css.map": "/knight-moves/static/css/main.06ac8a17.chunk.css.map",
+    "static/js/2.d1feba79.chunk.js.LICENSE.txt": "/knight-moves/static/js/2.d1feba79.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60651984.js",
+    "static/js/2.d1feba79.chunk.js",
+    "static/css/main.06ac8a17.chunk.css",
+    "static/js/main.b5484690.chunk.js"
+  ]
+}
