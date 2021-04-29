@@ -27,7 +27,10 @@ function App() {
                 data-file={file}
                 data-rank={rank}
                 key={file}
-              />
+              >
+                {file}
+                {rank}
+              </li>
             ))}
           </ul>
         );

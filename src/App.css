@@ -1,5 +1,6 @@
 .Knight {
   background-color: blue;
+  color: white;
 }
 
 .Rank--even,
@@ -29,6 +30,9 @@
 
 .Knight,
 .Square {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   height: 80px;
   width: 80px;
 }
