@@ -40,5 +40,12 @@
     ]
   },
   "description": "How many moves before the knight visits every square?",
-  "homepage": "https://mattiaerre.github.io/knight-moves"
+  "homepage": "https://mattiaerre.github.io/knight-moves",
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/reportWebVitals.js"
+    ]
+  }
 }
