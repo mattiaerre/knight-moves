@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`knight allowed moves b1 1`] = `
+Array [
+  Array [
+    "a",
+    3,
+  ],
+  Array [
+    "c",
+    3,
+  ],
+  Array [
+    "d",
+    2,
+  ],
+]
+`;
+
+exports[`knight allowed moves e5 1`] = `
+Array [
+  Array [
+    "d",
+    7,
+  ],
+  Array [
+    "f",
+    7,
+  ],
+  Array [
+    "g",
+    6,
+  ],
+  Array [
+    "g",
+    4,
+  ],
+  Array [
+    "f",
+    3,
+  ],
+  Array [
+    "d",
+    3,
+  ],
+  Array [
+    "c",
+    4,
+  ],
+  Array [
+    "c",
+    6,
+  ],
+]
+`;
