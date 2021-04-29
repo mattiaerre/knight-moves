@@ -1,18 +1,13 @@
 import classnames from 'classnames';
 import './App.css';
 import { files, ranks } from './domain/constants';
-import makeAllowedMoves from './domain/makeAllowedMoves';
-
-const origin = ['d', 5];
-
-const moves = makeAllowedMoves(origin);
+import { visited } from './domain/problem';
 
 function where(position) {
   return (
-    [origin]
-      .concat(moves)
-      .find(([file, rank]) => file === position[0] && rank === position[1]) !==
-    undefined
+    visited.find(
+      ([file, rank]) => file === position[0] && rank === position[1]
+    ) !== undefined
   );
 }
 
