@@ -1,4 +1,5 @@
 import classnames from 'classnames';
+import { name, version } from '../package.json';
 import './App.css';
 import { files, ranks } from './domain/constants';
 import { visited } from './domain/problem';
@@ -40,6 +41,9 @@ function App() {
           </ul>
         );
       })}
+      <footer>
+        {name} v{version}
+      </footer>
     </div>
   );
 }
