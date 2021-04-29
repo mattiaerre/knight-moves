@@ -35,5 +35,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "How many moves before the knight visits every square?"
 }

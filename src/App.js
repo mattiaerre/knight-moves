@@ -1,9 +1,19 @@
 import classnames from 'classnames';
 import './App.css';
 import { files, ranks } from './domain/constants';
+import makeAllowedMoves from './domain/makeAllowedMoves';
+
+const origin = ['d', 5];
+
+const moves = makeAllowedMoves(origin);
 
 function where(position) {
-  return position[0] === 'b' && position[1] === 1;
+  return (
+    [origin]
+      .concat(moves)
+      .find(([file, rank]) => file === position[0] && rank === position[1]) !==
+    undefined
+  );
 }
 
 function App() {
