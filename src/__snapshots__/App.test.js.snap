@@ -547,6 +547,11 @@ exports[`App snapshot 1`] = `
         1
       </li>
     </ul>
+    <footer>
+      knight-moves
+       v
+      0.1.0
+    </footer>
   </div>
 </div>
 `;
