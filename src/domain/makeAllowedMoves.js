@@ -31,10 +31,12 @@ function left(position) {
 }
 
 function makeAllowedMoves(position) {
-  return up(position)
+  // INFO: moving clockwise from "position"
+  return [up(position)[1]]
     .concat(right(position))
     .concat(down(position))
     .concat(left(position))
+    .concat([up(position)[0]])
     .filter(([file, rank]) => files.includes(file) && ranks.includes(rank));
 }
 

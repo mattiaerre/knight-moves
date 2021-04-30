@@ -6,9 +6,9 @@ describe('allowed moves', () => {
     const allowedMoves = makeAllowedMoves(['b', 1]);
     expect(JSON.stringify(allowedMoves)).toEqual(
       JSON.stringify([
-        ['a', 3],
         ['c', 3],
-        ['d', 2]
+        ['d', 2],
+        ['a', 3]
       ])
     );
   });
@@ -17,14 +17,14 @@ describe('allowed moves', () => {
     const allowedMoves = makeAllowedMoves(['e', 5]);
     expect(JSON.stringify(allowedMoves)).toEqual(
       JSON.stringify([
-        ['d', 7],
         ['f', 7],
         ['g', 6],
         ['g', 4],
         ['f', 3],
         ['d', 3],
         ['c', 4],
-        ['c', 6]
+        ['c', 6],
+        ['d', 7]
       ])
     );
   });

@@ -4,10 +4,6 @@ exports[`allowed moves h6 1`] = `
 Array [
   Array [
     "g",
-    8,
-  ],
-  Array [
-    "g",
     4,
   ],
   Array [
@@ -17,6 +13,10 @@ Array [
   Array [
     "f",
     7,
+  ],
+  Array [
+    "g",
+    8,
   ],
 ]
 `;

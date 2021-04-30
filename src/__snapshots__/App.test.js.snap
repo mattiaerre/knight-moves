@@ -31,7 +31,7 @@ exports[`App snapshot 1`] = `
         8
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="d"
         data-rank="8"
       >
@@ -83,7 +83,7 @@ exports[`App snapshot 1`] = `
         7
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="b"
         data-rank="7"
       >
@@ -99,7 +99,7 @@ exports[`App snapshot 1`] = `
         7
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="d"
         data-rank="7"
       >
@@ -151,7 +151,7 @@ exports[`App snapshot 1`] = `
         6
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="b"
         data-rank="6"
       >
@@ -159,7 +159,7 @@ exports[`App snapshot 1`] = `
         6
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="c"
         data-rank="6"
       >
@@ -167,7 +167,7 @@ exports[`App snapshot 1`] = `
         6
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="d"
         data-rank="6"
       >
@@ -175,7 +175,7 @@ exports[`App snapshot 1`] = `
         6
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="e"
         data-rank="6"
       >
@@ -211,7 +211,7 @@ exports[`App snapshot 1`] = `
       class="Rank--odd"
     >
       <li
-        class="Square"
+        class="Knight"
         data-file="a"
         data-rank="5"
       >
@@ -219,7 +219,7 @@ exports[`App snapshot 1`] = `
         5
       </li>
       <li
-        class="Knight"
+        class="Square"
         data-file="b"
         data-rank="5"
       >
@@ -227,7 +227,7 @@ exports[`App snapshot 1`] = `
         5
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="c"
         data-rank="5"
       >
@@ -235,7 +235,7 @@ exports[`App snapshot 1`] = `
         5
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="d"
         data-rank="5"
       >
@@ -243,7 +243,7 @@ exports[`App snapshot 1`] = `
         5
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="e"
         data-rank="5"
       >
@@ -279,7 +279,7 @@ exports[`App snapshot 1`] = `
       class="Rank--even"
     >
       <li
-        class="Square"
+        class="Knight"
         data-file="a"
         data-rank="4"
       >
@@ -295,7 +295,7 @@ exports[`App snapshot 1`] = `
         4
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="c"
         data-rank="4"
       >
@@ -303,7 +303,7 @@ exports[`App snapshot 1`] = `
         4
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="d"
         data-rank="4"
       >
@@ -311,7 +311,7 @@ exports[`App snapshot 1`] = `
         4
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="e"
         data-rank="4"
       >
@@ -319,7 +319,7 @@ exports[`App snapshot 1`] = `
         4
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="f"
         data-rank="4"
       >
@@ -347,7 +347,7 @@ exports[`App snapshot 1`] = `
       class="Rank--odd"
     >
       <li
-        class="Knight"
+        class="Square"
         data-file="a"
         data-rank="3"
       >
@@ -355,7 +355,7 @@ exports[`App snapshot 1`] = `
         3
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="b"
         data-rank="3"
       >
@@ -363,7 +363,7 @@ exports[`App snapshot 1`] = `
         3
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="c"
         data-rank="3"
       >
@@ -371,7 +371,7 @@ exports[`App snapshot 1`] = `
         3
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="d"
         data-rank="3"
       >
@@ -379,7 +379,7 @@ exports[`App snapshot 1`] = `
         3
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="e"
         data-rank="3"
       >
@@ -387,7 +387,7 @@ exports[`App snapshot 1`] = `
         3
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="f"
         data-rank="3"
       >
@@ -403,7 +403,7 @@ exports[`App snapshot 1`] = `
         3
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="h"
         data-rank="3"
       >
@@ -423,7 +423,7 @@ exports[`App snapshot 1`] = `
         2
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="b"
         data-rank="2"
       >
@@ -431,7 +431,7 @@ exports[`App snapshot 1`] = `
         2
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="c"
         data-rank="2"
       >
@@ -439,7 +439,7 @@ exports[`App snapshot 1`] = `
         2
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="d"
         data-rank="2"
       >
@@ -447,7 +447,7 @@ exports[`App snapshot 1`] = `
         2
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="e"
         data-rank="2"
       >
@@ -455,7 +455,7 @@ exports[`App snapshot 1`] = `
         2
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="f"
         data-rank="2"
       >
@@ -463,7 +463,7 @@ exports[`App snapshot 1`] = `
         2
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="g"
         data-rank="2"
       >
@@ -471,7 +471,7 @@ exports[`App snapshot 1`] = `
         2
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="h"
         data-rank="2"
       >
@@ -499,7 +499,7 @@ exports[`App snapshot 1`] = `
         1
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="c"
         data-rank="1"
       >
@@ -507,7 +507,7 @@ exports[`App snapshot 1`] = `
         1
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="d"
         data-rank="1"
       >
@@ -515,7 +515,7 @@ exports[`App snapshot 1`] = `
         1
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="e"
         data-rank="1"
       >
@@ -523,7 +523,7 @@ exports[`App snapshot 1`] = `
         1
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="f"
         data-rank="1"
       >
@@ -531,7 +531,7 @@ exports[`App snapshot 1`] = `
         1
       </li>
       <li
-        class="Square"
+        class="Knight"
         data-file="g"
         data-rank="1"
       >
