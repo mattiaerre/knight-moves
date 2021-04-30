@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`allowed moves h6 1`] = `
+Array [
+  Array [
+    "g",
+    8,
+  ],
+  Array [
+    "g",
+    4,
+  ],
+  Array [
+    "f",
+    5,
+  ],
+  Array [
+    "f",
+    7,
+  ],
+]
+`;

@@ -1,6 +1,5 @@
-import { board, visited } from './problem';
+import { knight } from './problem';
 
-test('visited', () => {
-  console.log(visited);
-  console.log(visited.length, board.length);
+test('better API', () => {
+  console.log(knight.getPosition());
 });

@@ -1,31 +1,37 @@
-import { files, ranks } from './constants';
 import makeKnight from './makeKnight';
 
-function makeBoard() {
-  const board = [];
-
-  files.forEach((file) => {
-    ranks.forEach((rank) => {
-      board.push([file, rank]);
-    });
-  });
-  return board;
-}
-
-export const board = makeBoard();
 const origin = ['b', 1];
-const knight = makeKnight(origin);
+export const knight = makeKnight(origin);
 export const visited = [origin];
 
-// while (visited.length < board.length) {
-board.forEach((square) => {
-  if (
-    knight.canMoveTo(square) &&
-    visited.find(([file, rank]) => file === square[0] && rank === square[1]) ===
-      undefined
-  ) {
-    knight.moveTo(square);
-    visited.push(square);
+function go(knight, visited) {
+  let flag = true;
+  const moves = knight.moves(); // [['a', 3], ['c', 3], ['d', 2]]
+
+  moves.forEach((square) => {
+    if (
+      visited.find(
+        ([file, rank]) => file === square[0] && rank === square[1]
+      ) === undefined &&
+      flag
+    ) {
+      knight.moveTo(square);
+      visited.push(square);
+      flag = false;
+    }
+  });
+
+  if (flag === true) {
+    throw new Error(`Oh Noes! "${knight.getPosition()}"`);
   }
-});
-// }
+}
+
+const length = 22; // ['h', 8]
+
+try {
+  while (visited.length < length) {
+    go(knight, visited);
+  }
+} catch (error) {
+  console.log(error);
+}

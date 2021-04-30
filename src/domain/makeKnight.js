@@ -3,6 +3,7 @@ import makeAllowedMoves from './makeAllowedMoves';
 function makeKnight(initial) {
   let position = initial;
 
+  // INFO: may be deprecated
   function canMoveTo(destination) {
     return (
       makeAllowedMoves(position).find(
@@ -15,6 +16,10 @@ function makeKnight(initial) {
     return position;
   }
 
+  function moves() {
+    return makeAllowedMoves(position);
+  }
+
   function moveTo(newPosition) {
     position = newPosition;
   }
@@ -22,6 +27,7 @@ function makeKnight(initial) {
   return {
     canMoveTo,
     getPosition,
+    moves,
     moveTo
   };
 }

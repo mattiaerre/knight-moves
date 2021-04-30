@@ -28,6 +28,11 @@ describe('allowed moves', () => {
       ])
     );
   });
+
+  test('h6', () => {
+    const allowedMoves = makeAllowedMoves(['h', 6]);
+    expect(allowedMoves).toMatchSnapshot();
+  });
 });
 
 describe('knight', () => {

@@ -4,7 +4,7 @@ import './App.css';
 import { files, ranks } from './domain/constants';
 import { visited } from './domain/problem';
 
-function where(position) {
+function beenThere(position) {
   return (
     visited.find(
       ([file, rank]) => file === position[0] && rank === position[1]
@@ -27,8 +27,8 @@ function App() {
             {files.map((file, index) => (
               <li
                 className={classnames({
-                  Knight: where([file, rank]),
-                  Square: !where([file, rank])
+                  Knight: beenThere([file, rank]),
+                  Square: !beenThere([file, rank])
                 })}
                 data-file={file}
                 data-rank={rank}
