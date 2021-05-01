@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Warnsdorff's rule 1`] = `
+Array [
+  Array [
+    "a",
+    2,
+    2,
+  ],
+  Array [
+    "a",
+    6,
+    3,
+  ],
+  Array [
+    "c",
+    2,
+    5,
+  ],
+  Array [
+    "c",
+    6,
+    7,
+  ],
+  Array [
+    "d",
+    5,
+    7,
+  ],
+  Array [
+    "d",
+    3,
+    7,
+  ],
+]
+`;

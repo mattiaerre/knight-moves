@@ -1,4 +1,5 @@
 import makeAllowedMoves from './makeAllowedMoves';
+import warnsdorff from './warnsdorff';
 
 function makeKnight(initial) {
   let position = initial;
@@ -17,7 +18,7 @@ function makeKnight(initial) {
   }
 
   function moves() {
-    return makeAllowedMoves(position);
+    return warnsdorff(position);
   }
 
   function moveTo(newPosition) {

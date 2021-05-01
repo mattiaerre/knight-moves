@@ -12,6 +12,22 @@ function beenThere(position) {
   );
 }
 
+function ListItem({ file, rank }) {
+  return (
+    <li
+      className={classnames({
+        Knight: beenThere([file, rank]),
+        Square: !beenThere([file, rank])
+      })}
+      data-file={file}
+      data-rank={rank}
+    >
+      {file}
+      {rank}
+    </li>
+  );
+}
+
 function App() {
   return (
     <div>
@@ -25,18 +41,7 @@ function App() {
             key={rank}
           >
             {files.map((file, index) => (
-              <li
-                className={classnames({
-                  Knight: beenThere([file, rank]),
-                  Square: !beenThere([file, rank])
-                })}
-                data-file={file}
-                data-rank={rank}
-                key={file}
-              >
-                {file}
-                {rank}
-              </li>
+              <ListItem file={file} key={file} rank={rank} />
             ))}
           </ul>
         );

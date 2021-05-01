@@ -70,4 +70,17 @@ describe('knight', () => {
       expect(knight.getPosition()).toEqual(['d', 5]);
     });
   });
+
+  describe('moves', () => {
+    it('b1', () => {
+      const knight = makeKnight(['b', 1]);
+      expect(JSON.stringify(knight.moves())).toEqual(
+        JSON.stringify([
+          ['a', 3, 3],
+          ['d', 2, 5],
+          ['c', 3, 7]
+        ])
+      );
+    });
+  });
 });
