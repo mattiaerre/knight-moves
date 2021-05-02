@@ -36,41 +36,6 @@ describe('allowed moves', () => {
 });
 
 describe('knight', () => {
-  describe('can move to', () => {
-    it('c3', () => {
-      const knight = makeKnight(['b', 1]);
-      expect(knight.canMoveTo(['c', 3])).toBe(true);
-    });
-
-    it('b3', () => {
-      const knight = makeKnight(['b', 1]);
-      expect(knight.canMoveTo(['b', 3])).toBe(false);
-    });
-
-    it('a3', () => {
-      const knight = makeKnight(['b', 1]);
-      expect(knight.canMoveTo(['a', 3])).toBe(true);
-    });
-
-    it('h8', () => {
-      const knight = makeKnight(['h', 8]);
-      expect(knight.canMoveTo(['g', 6])).toBe(true);
-    });
-  });
-
-  describe('move to', () => {
-    it('b1 > c3 > d5', () => {
-      const knight = makeKnight(['b', 1]);
-      if (knight.canMoveTo(['c', 3])) {
-        knight.moveTo(['c', 3]);
-      }
-      if (knight.canMoveTo(['d', 5])) {
-        knight.moveTo(['d', 5]);
-      }
-      expect(knight.getPosition()).toEqual(['d', 5]);
-    });
-  });
-
   describe('moves', () => {
     it('b1', () => {
       const knight = makeKnight(['b', 1]);

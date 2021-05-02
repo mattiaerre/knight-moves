@@ -1,17 +1,7 @@
-import makeAllowedMoves from './makeAllowedMoves';
 import warnsdorff from './warnsdorff';
 
 function makeKnight(initial) {
   let position = initial;
-
-  // INFO: may be deprecated
-  function canMoveTo(destination) {
-    return (
-      makeAllowedMoves(position).find(
-        ([file, rank]) => file === destination[0] && rank === destination[1]
-      ) !== undefined
-    );
-  }
 
   function getPosition() {
     return position;
@@ -26,7 +16,6 @@ function makeKnight(initial) {
   }
 
   return {
-    canMoveTo,
     getPosition,
     moves,
     moveTo
