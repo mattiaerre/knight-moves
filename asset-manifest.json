@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/knight-moves/static/css/main.8e2b65bb.chunk.css",
-    "main.js": "/knight-moves/static/js/main.8ed99288.chunk.js",
-    "main.js.map": "/knight-moves/static/js/main.8ed99288.chunk.js.map",
+    "main.js": "/knight-moves/static/js/main.ad664862.chunk.js",
+    "main.js.map": "/knight-moves/static/js/main.ad664862.chunk.js.map",
     "runtime-main.js": "/knight-moves/static/js/runtime-main.cc966418.js",
     "runtime-main.js.map": "/knight-moves/static/js/runtime-main.cc966418.js.map",
-    "static/js/2.86982f94.chunk.js": "/knight-moves/static/js/2.86982f94.chunk.js",
-    "static/js/2.86982f94.chunk.js.map": "/knight-moves/static/js/2.86982f94.chunk.js.map",
+    "static/js/2.0f2eefd2.chunk.js": "/knight-moves/static/js/2.0f2eefd2.chunk.js",
+    "static/js/2.0f2eefd2.chunk.js.map": "/knight-moves/static/js/2.0f2eefd2.chunk.js.map",
     "static/js/3.46ea7fbc.chunk.js": "/knight-moves/static/js/3.46ea7fbc.chunk.js",
     "static/js/3.46ea7fbc.chunk.js.map": "/knight-moves/static/js/3.46ea7fbc.chunk.js.map",
     "index.html": "/knight-moves/index.html",
     "static/css/main.8e2b65bb.chunk.css.map": "/knight-moves/static/css/main.8e2b65bb.chunk.css.map",
-    "static/js/2.86982f94.chunk.js.LICENSE.txt": "/knight-moves/static/js/2.86982f94.chunk.js.LICENSE.txt"
+    "static/js/2.0f2eefd2.chunk.js.LICENSE.txt": "/knight-moves/static/js/2.0f2eefd2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cc966418.js",
-    "static/js/2.86982f94.chunk.js",
+    "static/js/2.0f2eefd2.chunk.js",
     "static/css/main.8e2b65bb.chunk.css",
-    "static/js/main.8ed99288.chunk.js"
+    "static/js/main.ad664862.chunk.js"
   ]
 }
