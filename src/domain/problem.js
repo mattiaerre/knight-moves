@@ -26,10 +26,10 @@ function go(knight, visited) {
   }
 }
 
-const length = 59; // ['c', 5]
+const length = 58; // ['c', 5]
 
 try {
-  while (visited.length < length) {
+  while (visited.length <= length) {
     go(knight, visited);
   }
 } catch (error) {

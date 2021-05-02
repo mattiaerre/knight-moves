@@ -1,23 +1,24 @@
 import classnames from 'classnames';
+import { useEffect, useState } from 'react';
 import { name, version } from '../package.json';
 import './App.css';
 import { files, ranks } from './domain/constants';
 import { visited } from './domain/problem';
 
-function beenThere(position) {
-  return (
-    visited.find(
-      ([file, rank]) => file === position[0] && rank === position[1]
-    ) !== undefined
-  );
-}
+function ListItem({ file, rank, squares }) {
+  function beenThere(position) {
+    return (
+      squares.find(
+        ([file, rank]) => file === position[0] && rank === position[1]
+      ) !== undefined
+    );
+  }
 
-function ListItem({ file, rank }) {
   return (
     <li
       className={classnames({
-        Knight: beenThere([file, rank]),
-        Square: !beenThere([file, rank])
+        Knight: beenThere([file, rank], squares),
+        Square: !beenThere([file, rank], squares)
       })}
       data-file={file}
       data-rank={rank}
@@ -29,6 +30,17 @@ function ListItem({ file, rank }) {
 }
 
 function App() {
+  const [squares, setSquares] = useState([]);
+
+  useEffect(() => {
+    if (squares.length < visited.length) {
+      const timer = setTimeout(() => {
+        setSquares([...squares, visited[squares.length]]);
+      }, 250);
+      return () => clearTimeout(timer);
+    }
+  }, [squares]);
+
   return (
     <div>
       {[...ranks].reverse().map((rank, index) => {
@@ -41,7 +53,7 @@ function App() {
             key={rank}
           >
             {files.map((file, index) => (
-              <ListItem file={file} key={file} rank={rank} />
+              <ListItem file={file} key={file} rank={rank} squares={squares} />
             ))}
           </ul>
         );
