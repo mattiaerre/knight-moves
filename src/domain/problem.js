@@ -26,7 +26,7 @@ function go(knight, visited) {
   }
 }
 
-const length = 58; // ['c', 5]
+const length = 63;
 
 try {
   while (visited.length <= length) {

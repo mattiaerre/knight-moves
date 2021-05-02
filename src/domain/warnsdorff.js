@@ -12,7 +12,7 @@ function warnsdorff(position) {
       if (a[2] > b[2]) {
         return 1;
       }
-      return 0;
+      return -1;
     });
 }
 
